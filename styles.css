@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #212B3B;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ED1C24;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #8C3944;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #8C3944;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background: #fff;
+  color: #212B3B;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #ED1C24;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 30%;
+  border-radius: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  color: #212B3B;
+}
+
+form input, form textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #212B3B;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  background: #ED1C24;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #8C3944;
+}
+
+footer {
+  background: #ED1C24;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
