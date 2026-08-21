@@ -63,6 +63,7 @@ section h2 {
 .galeria {
   display: flex;
   gap: 10px;
+  width: 750px;
 }
 
 .galeria img {
