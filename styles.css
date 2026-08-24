@@ -44,8 +44,8 @@ header nav ul li a:hover {
   color: #8C3944;
 }
 
-main{
-    flex: 1;
+main {
+  flex: 1;
 }
 
 .hero {
@@ -68,9 +68,9 @@ section h2 {
 }
 
 .menu_curiosidades {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .galeria {
@@ -95,7 +95,8 @@ form label {
   color: #212B3B;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   padding: 8px;
   margin-top: 5px;
   border: 1px solid #212B3B;
