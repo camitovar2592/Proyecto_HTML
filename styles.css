@@ -3,6 +3,9 @@ body {
   margin: 0;
   background: #212B3B;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -41,6 +44,10 @@ header nav ul li a:hover {
   color: #8C3944;
 }
 
+main{
+    flex: 1;
+}
+
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -60,10 +67,17 @@ section h2 {
   color: #ED1C24;
 }
 
+.menu_curiosidades {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .galeria {
   display: flex;
   gap: 10px;
-  width: 750px;
+  /* width: 750px; */
+  justify-content: center;
 }
 
 .galeria img {
